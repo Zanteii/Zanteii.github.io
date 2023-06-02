@@ -1,0 +1,484 @@
+  /* ------------------- Table Styling ------------------ */
+  a {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  .table-reletive{
+    padding-top: 100px; 
+    padding-left: 15%; 
+    align-content: center;
+    border-spacing: 50px 10px;
+  }
+
+  .dataEntry {
+    background-color: rgb(221, 221, 221);
+    padding: 6px;
+    margin: 20px;
+    height: 40rem;
+    width: 20%;
+    display:inline-block;
+    overflow: hidden;
+    float: left;
+    
+
+    
+  }
+
+  .dataInnerBox {
+    background-color: rgb(234, 234, 234);
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 2%;
+  
+    
+  }
+
+  .dataEntry ::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+
+  .productImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:300px;
+    height:150px;
+    background-color: transparent;
+
+    
+  }
+
+  .productimagecart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:320px;
+    height: 200px;
+    background-color: transparent;
+  }
+
+  /* .even-odds:nth-child(even) {
+    background-color: #ededed;
+  }
+  .even-odds:nth-child(odd) {
+    background-color: #c6cdd7;
+  } */
+
+  .productdata {
+    text-align: center;
+  }
+
+  table {
+    padding: 6px;
+    line-height: 1.5;
+    
+  }
+
+  #tableHeader {
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #tableText {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  #tablePrice {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #tableSubHeading {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    
+  }
+
+ 
+
+
+  #carTable {
+    display: block;
+  }
+
+
+  #carTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style the table header */
+  #carTable th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 10px;
+
+  }
+
+  #carTable td {
+    padding: 5px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .tableText {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  /* Style the table data */
+  #carTable td, #carTable th {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  /* Style the alternate rows */
+  #carTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #rentDays {
+    width: 100px;
+  }
+
+  #heading {
+    padding-top: 100px;
+  }
+
+  .productData {
+
+  }
+
+  .tableheaderfont {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+ 
+
+/* -------------- Top Navbar ----------------- */
+.topnavbar {
+  background-color: #005526;
+  position:fixed; 
+  float: left;
+  top:0;
+  left:0px;
+  width:100%;
+  z-index:10;
+  overflow: hidden; 
+}
+
+.topnavbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  position: relative;
+  padding: 1.2rem 20px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+} 
+
+.topnavbar a.active {
+  background-color: #00411d;
+  color: white;
+}
+
+.topnavbar a:hover {
+  background-color: #004c22;
+  color: #ffffff;
+}
+
+.button {
+  border:none; 
+  width: 10rem;
+  height:3rem;
+  margin-left: 30%;
+  top: 50%;
+  left: 50%;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.button:hover {
+  background-color: #6a7469;
+  color: white;
+  transition: 0.7s;
+  border:none; 
+}
+
+#removeButton {
+  top: 50%;
+  left: 50%;
+  margin-left: 0%;
+  border:none; 
+  background-color: #b6d0c2;
+}
+
+#removeButton:hover {
+  background-color: #6a7469;
+  color: white;
+  transition: 0.7s;
+  border:none; 
+}
+
+
+#searchbar {
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border: none;
+  border-bottom:0.1rem solid #ffffff;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+  width:27rem;
+  background-color: transparent;
+  font-size:1.2rem;
+  letter-spacing:0.15rem;
+  outline:none;
+  color:#ffffff;
+}
+
+::placeholder {
+  color:#ffffff ;
+  opacity: 1; /* This is for firefox as firefox lowers opacity of placeholders */
+}
+
+#logoImage {
+  width: 200px;
+  height: 60px;
+  float: left;
+}
+
+
+/* ------------------- Checkout Popup Form ------------------ */
+
+.modal {
+  position: fixed;
+  font-family:Arial, Helvetica, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 5px;
+  z-index: 11;
+  background-color: #fcfff4;
+  width: 520px;
+  max-width: 80%;
+  height: 520px;
+  max-height: 60%;
+  overflow-y: auto;
+white-space: nowrap;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-seperatebody {
+  display: flex;
+}
+
+.modal-body {
+  padding: 0px 15px;
+  display: inline-block;
+}
+
+.merge {
+  display: flex;
+}
+
+.modal-shoppingcart {
+  padding: 0px 0px 10px 5px;
+  font-size: 1.15rem;
+  letter-spacing:0.05rem;
+  overflow-x: hidden;
+  
+  text-overflow: ellipsis;
+  
+}
+
+.checkoutButton {
+  margin: 0px 30px;
+  border:none; 
+  width:150px;
+  height:60px;
+  top: 50%;
+  left: 50%;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.checkoutButton:hover {
+  background-color: #696e74;
+  color: white;
+  transition: 0.7s;
+  border:none; 
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0, .5);
+  pointer-events: none;
+
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+.modal3 {
+  position: fixed;
+  font-family:Arial, Helvetica, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 5px;
+  z-index: 11;
+  background-color: #fcfff4;
+  width: 400px;
+  max-width: 80%;
+  height: 60px;
+  max-height: 60%;
+  overflow-y: auto;
+white-space: nowrap;
+}
+
+.modal3.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal3-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.modal3-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  align-content: center;
+}
+
+.modal3-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-rentaldaysbox {
+  background-color: #f5f5f5;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.inputDays {
+  border: none;
+  width: 50px;
+  height: 30px;
+  background-color: #dadada;
+  font-size: 1rem;
+  float: right;
+
+
+}
+
+.inputData {
+  border: none;
+  background-color: rgb(230, 230, 230);
+}
+
+input[type=number]::-webkit-inner-spin-button { /* Removes the arrows of the above input days, sets to none */
+  -webkit-appearance: none;
+}
+
+.checkoutCars {
+  display: inline;
+}
+
+
+
+
+/* -------------- Media Query Area ----------------- */ 
+
+
+
+
+@media (max-width:1000px){
+  .productImage {
+    max-width:150px;
+    height:100px;
+    
+  }
+
+  .button {
+
+    width: 8rem;
+    height:3rem;
+    margin-left: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+  
+  }
+ 
+
+}
+
+
+
+
